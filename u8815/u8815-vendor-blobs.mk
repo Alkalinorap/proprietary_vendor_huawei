@@ -56,6 +56,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8815/proprietary/lib/libchromatix_s5k4e1_ar.so:system/lib/libchromatix_s5k4e1_ar.so \
     vendor/huawei/u8815/proprietary/lib/libchromatix_s5k4e1_default_video.so:system/lib/libchromatix_s5k4e1_default_video.so \
     vendor/huawei/u8815/proprietary/lib/hw/nfc.huawei.so:system/lib/hw/nfc.huawei.so \
+    vendor/huawei/u8815/proprietary/lib/hw/libbcmfm_if.so:system/lib/hw/libbcmfm_if.so \
+    vendor/huawei/u8815/proprietary/lib/hw/audio.primary.u8815.so:system/lib/hw/audio.primary.u8815.so \
+    vendor/huawei/u8815/proprietary/lib/hw/audio_policy.u8815.so:system/lib/hw/audio_policy.u8815.so \
     vendor/huawei/u8815/proprietary/lib/libchromatix_s5k4e1_preview.so:system/lib/libchromatix_s5k4e1_preview.so \
     vendor/huawei/u8815/proprietary/lib/libchromatix_s5k4e1_3_ar.so:system/lib/libchromatix_s5k4e1_3_ar.so \
     vendor/huawei/u8815/proprietary/lib/libchromatix_s5k4e1_3_default_video.so:system/lib/libchromatix_s5k4e1_3_default_video.so \
