@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8815/proprietary/bin/rild:system/bin/rild \
     vendor/huawei/u8815/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo \
     vendor/huawei/u8815/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/huawei/u8815/proprietary/bin/nfc_check:system/bin/nfc_check \
     vendor/huawei/u8815/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/huawei/u8815/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/huawei/u8815/proprietary/lib/109808/libcm.so:system/lib/109808/libcm.so \
@@ -54,6 +55,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8815/proprietary/lib/libchromatix_ov5647_video.so:system/lib/libchromatix_ov5647_video.so \
     vendor/huawei/u8815/proprietary/lib/libchromatix_s5k4e1_ar.so:system/lib/libchromatix_s5k4e1_ar.so \
     vendor/huawei/u8815/proprietary/lib/libchromatix_s5k4e1_default_video.so:system/lib/libchromatix_s5k4e1_default_video.so \
+    vendor/huawei/u8815/proprietary/lib/hw/nfc.huawei.so:system/lib/hw/nfc.huawei.so \
     vendor/huawei/u8815/proprietary/lib/libchromatix_s5k4e1_preview.so:system/lib/libchromatix_s5k4e1_preview.so \
     vendor/huawei/u8815/proprietary/lib/libchromatix_s5k4e1_3_ar.so:system/lib/libchromatix_s5k4e1_3_ar.so \
     vendor/huawei/u8815/proprietary/lib/libchromatix_s5k4e1_3_default_video.so:system/lib/libchromatix_s5k4e1_3_default_video.so \
