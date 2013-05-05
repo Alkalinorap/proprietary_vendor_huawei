@@ -23,12 +23,12 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8815/proprietary/bin/load_oemlogo:system/bin/load_oemlogo \
     vendor/huawei/u8815/proprietary/bin/modempre:system/bin/modempre \
     vendor/huawei/u8815/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/huawei/u8815/proprietary/bin/nfc_check:system/bin/nfc_check \
     vendor/huawei/u8815/proprietary/bin/oem_rpc_svc:system/bin/oem_rpc_svc \
     vendor/huawei/u8815/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/huawei/u8815/proprietary/bin/rild:system/bin/rild \
     vendor/huawei/u8815/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo \
     vendor/huawei/u8815/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/huawei/u8815/proprietary/bin/nfc_check:system/bin/nfc_check \
     vendor/huawei/u8815/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/huawei/u8815/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/huawei/u8815/proprietary/lib/109808/libcm.so:system/lib/109808/libcm.so \
@@ -40,6 +40,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8815/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/huawei/u8815/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
     vendor/huawei/u8815/proprietary/lib/hw/lights.msm7x27a.so:system/lib/hw/lights.msm7x27a.so \
+    vendor/huawei/u8815/proprietary/lib/hw/nfc.huawei.so:system/lib/hw/nfc.huawei.so \
     vendor/huawei/u8815/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/huawei/u8815/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
     vendor/huawei/u8815/proprietary/lib/libauth.so:system/lib/libauth.so \
@@ -55,7 +56,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8815/proprietary/lib/libchromatix_ov5647_video.so:system/lib/libchromatix_ov5647_video.so \
     vendor/huawei/u8815/proprietary/lib/libchromatix_s5k4e1_ar.so:system/lib/libchromatix_s5k4e1_ar.so \
     vendor/huawei/u8815/proprietary/lib/libchromatix_s5k4e1_default_video.so:system/lib/libchromatix_s5k4e1_default_video.so \
-    vendor/huawei/u8815/proprietary/lib/hw/nfc.huawei.so:system/lib/hw/nfc.huawei.so \
     vendor/huawei/u8815/proprietary/lib/libchromatix_s5k4e1_preview.so:system/lib/libchromatix_s5k4e1_preview.so \
     vendor/huawei/u8815/proprietary/lib/libchromatix_s5k4e1_3_ar.so:system/lib/libchromatix_s5k4e1_3_ar.so \
     vendor/huawei/u8815/proprietary/lib/libchromatix_s5k4e1_3_default_video.so:system/lib/libchromatix_s5k4e1_3_default_video.so \
@@ -90,6 +90,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8815/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/huawei/u8815/proprietary/lib/libnv.so:system/lib/libnv.so \
     vendor/huawei/u8815/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/huawei/u8815/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/huawei/u8815/proprietary/lib/liboeminfo.so:system/lib/liboeminfo.so \
     vendor/huawei/u8815/proprietary/lib/liboeminfodata.so:system/lib/liboeminfodata.so \
     vendor/huawei/u8815/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
